@@ -177,8 +177,7 @@ public class APE4_Grafos {
                     // Calcular nueva distancia
                     int nuevaDistancia = distancias.get(actual) + arista.peso;
 
-                    // TODO:
-                    // Verificar si nuevaDistancia es menor
+
                     if (nuevaDistancia < distancias.get(arista.destino)) {
 
                         // TODO:
