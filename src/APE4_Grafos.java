@@ -173,8 +173,7 @@ public class APE4_Grafos {
 
                 for (Arista arista : adyacencia.get(actual)) {
 
-                    // TODO:
-                    // Calcular nueva distancia
+
                     int nuevaDistancia = distancias.get(actual) + arista.peso;
 
                     // TODO:
